@@ -2,7 +2,7 @@ apiVersion: v2
 name: ronald-server
 description: Helm chart to deploy ronald-server
 type: application
-version: 15
+version: 16
 appVersion: 0.0.1
 dependencies:
 - name: helm-template

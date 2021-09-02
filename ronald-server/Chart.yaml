@@ -1,0 +1,11 @@
+apiVersion: v2
+name: ronald-server
+description: Helm chart to deploy ronald-server
+type: application
+version: 1
+appVersion: 0.0.1
+dependencies:
+- name: helm-template
+  alias: webapp
+  repository: git+ssh://git@gitlab.stashaway.com/infra/helm-template@charts?ref=0.19.0&sparse=0
+  version: 0.19.0
